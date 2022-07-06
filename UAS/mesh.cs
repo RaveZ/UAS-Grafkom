@@ -512,11 +512,11 @@ namespace LightFast
         private void combine()
         {
             int n = 0;
-            int cnt = 0;
+            int counters = 0;
             foreach (int i in indeces)
             {
 
-                n = (int)indeces_n[cnt];
+                n = (int)indeces_n[counters];
 
                 _combine.Add(vertices[i].X);
                 _combine.Add(vertices[i].Y);
@@ -525,7 +525,7 @@ namespace LightFast
                 _combine.Add(normals[n].Y);
                 _combine.Add(normals[n].Z);
 
-                cnt++;
+                counters++;
             }
             _realVertices = _combine.ToArray();
         }
