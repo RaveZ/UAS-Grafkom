@@ -1,0 +1,12 @@
+# Blender MTL File: 'Freddy-Fazbear.blend'
+# Material Count: 1
+
+newmtl Material.028
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.401976 0.093753 0.024006
+Ks 0.460317 0.460317 0.460317
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 3
